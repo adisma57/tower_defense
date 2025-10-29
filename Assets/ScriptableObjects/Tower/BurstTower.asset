@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a3771dfa43ff24f9b1bb3978e440de, type: 3}
+  m_Name: BurstTower
+  m_EditorClassIdentifier: Assembly-CSharp::TowerData
+  range: 4
+  fireRate: 0.03
+  projectileSpeed: 8
+  projectileDuration: 0.74
+  damage: 0.1
+  projectileSize: 0.4
+  cost: 75
+  sprite: {fileID: -3768692609619806505, guid: 50a20f7eaf33b8d4da4ba16bd5f5308d, type: 3}
+  prefab: {fileID: 4872815125839910434, guid: 0d4b077e8d69c7c4d820a3a64fbada94, type: 3}
